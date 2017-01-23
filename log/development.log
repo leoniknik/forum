@@ -5286,3 +5286,270 @@ Processing by Devise::SessionsController#new as HTML
 Completed 200 OK in 19ms (Views: 17.3ms | ActiveRecord: 0.0ms)
 
 
+Started POST "/users/sign_in" for 127.0.0.1 at 2017-01-23 22:37:30 +0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Hk5dKf8aT+KlUGRAj7N2I34w7y4MM28iFmXBDX6CDpNWLMOnfxQMHmp/ECsTTTTsePx3Q5jEFw92nFJUUT2irA==", "user"=>{"email"=>"leoniknik@mail.ru", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'leoniknik@mail.ru' ORDER BY `users`.`id` ASC LIMIT 1[0m
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.3ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Hk5dKf8aT+KlUGRAj7N2I34w7y4MM28iFmXBDX6CDpNWLMOnfxQMHmp/ECsTTTTsePx3Q5jEFw92nFJUUT2irA==", "user"=>{"email"=>"leoniknik@mail.ru", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 150ms (Views: 25.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2017-01-23 22:37:31 +0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"A3k2/aQfxOnLmmHCwK1UcnjOD3oXNYd0IQYQ1A+4FTVLG6hzJBGHFQS1FalcUxa9fgKXF4PC/1lB/4ONIAe5Cg==", "user"=>{"email"=>"leoniknik@mail.ru", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'leoniknik@mail.ru' ORDER BY `users`.`id` ASC LIMIT 1[0m
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.3ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"A3k2/aQfxOnLmmHCwK1UcnjOD3oXNYd0IQYQ1A+4FTVLG6hzJBGHFQS1FalcUxa9fgKXF4PC/1lB/4ONIAe5Cg==", "user"=>{"email"=>"leoniknik@mail.ru", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 146ms (Views: 21.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2017-01-23 22:37:32 +0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hRciLj9EI9fpNZlL2IMhR3EAcy6XMTLOMtH2qCecY9/Ndbygv0pgKyYa7SBEfWOId8zrQwPGSuNSKGXxCCPP4A==", "user"=>{"email"=>"leoniknik@mail.ru", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'leoniknik@mail.ru' ORDER BY `users`.`id` ASC LIMIT 1[0m
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.2ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hRciLj9EI9fpNZlL2IMhR3EAcy6XMTLOMtH2qCecY9/Ndbygv0pgKyYa7SBEfWOId8zrQwPGSuNSKGXxCCPP4A==", "user"=>{"email"=>"leoniknik@mail.ru", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 144ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2017-01-23 22:37:32 +0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yMxeUgM9zoe7saMbmLTwKhy53lXjX3iixnj5ruTpwoOArsDcgzONe3Se13AESrLlGnVGOHeoAI+mgWr3y1ZuvA==", "user"=>{"email"=>"leoniknik@mail.ru", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'leoniknik@mail.ru' ORDER BY `users`.`id` ASC LIMIT 1[0m
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.2ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yMxeUgM9zoe7saMbmLTwKhy53lXjX3iixnj5ruTpwoOArsDcgzONe3Se13AESrLlGnVGOHeoAI+mgWr3y1ZuvA==", "user"=>{"email"=>"leoniknik@mail.ru", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 143ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2017-01-23 22:37:33 +0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CGyhuvAhtRB1gJWlxZOYgf7VcaXbnfFaYxe4UCeHHQBADj80cC/27Lqv4c5ZbdpO+BnpyE9qiXcD7isJCDixPw==", "user"=>{"email"=>"leoniknik@mail.ru", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'leoniknik@mail.ru' ORDER BY `users`.`id` ASC LIMIT 1[0m
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.2ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CGyhuvAhtRB1gJWlxZOYgf7VcaXbnfFaYxe4UCeHHQBADj80cC/27Lqv4c5ZbdpO+BnpyE9qiXcD7isJCDixPw==", "user"=>{"email"=>"leoniknik@mail.ru", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 140ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2017-01-23 22:37:35 +0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/registrations/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2017-01-23 22:37:39 +0300
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qUVY+Ykh3kpavaoTUiEczvdPUgYSgibTpYFPLr88wJyBNnLiIe86q2RdkjFl8ke5/bWEPrLNk/QrXvPGZzE5sA==", "user"=>{"username"=>"Kir", "email"=>"leoniknik@mail.ru", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'leoniknik@mail.ru' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/registrations/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 147ms (Views: 14.5ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2017-01-23 22:37:56 +0300
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"m51IcWha14ivjUJmmJkqodfKB/uVcApvwZhpjc/UTRzT/9b/6FSUdGCiNg0EZ2hu0QaflgGHckKhYfrU4GvhIw==", "user"=>{"username"=>"Kirill", "email"=>"leoniknik@mail.ru", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "avatar"=>#<ActionDispatch::Http::UploadedFile:0x007f5a7e0df400 @tempfile=#<Tempfile:/tmp/RackMultipart20170123-26643-vgaa3g.jpg>, @original_filename="58452.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"user[avatar]\"; filename=\"58452.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Sign up"}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'leoniknik@mail.ru' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO `users` (`email`, `encrypted_password`, `created_at`, `updated_at`, `avatar`, `username`) VALUES ('leoniknik@mail.ru', '$2a$11$fxcEfP3omb0uJRP9Y20L6eDlPdiGV75Mzw1agyl.f4ky65kYlZ/2e', '2017-01-23 19:37:56', '2017-01-23 19:37:56', '58452.jpg', 'Kirill')[0m
+  [1m[35m (57.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE `users` SET `sign_in_count` = 1, `current_sign_in_at` = '2017-01-23 19:37:56', `last_sign_in_at` = '2017-01-23 19:37:56', `current_sign_in_ip` = '127.0.0.1', `last_sign_in_ip` = '127.0.0.1' WHERE `users`.`id` = 11[0m
+  [1m[35m (64.5ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 255ms (ActiveRecord: 123.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-01-23 22:37:56 +0300
+Processing by TimeController#show as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 11 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering time/show.html.erb within layouts/application
+  Rendered time/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 15ms (Views: 12.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-01-23 22:38:04 +0300
+Processing by TimeController#show as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 11 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering time/show.html.erb within layouts/application
+  Rendered time/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 30ms (Views: 25.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2017-01-23 22:38:08 +0300
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 11 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.2ms)
+
+
+Started PUT "/users" for 127.0.0.1 at 2017-01-23 22:38:19 +0300
+Processing by Devise::RegistrationsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hiDh/RORy0zRobNX9ClI6ZJshuCGjqEeyDeekxZJSv1OBYo+KG5pCflAPzfyUOBupqM8gbwQACG+JXUIwHyb/Q==", "user"=>{"username"=>"Kirill", "email"=>"leoniknik@mail.ru", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "current_password"=>"[FILTERED]", "avatar"=>#<ActionDispatch::Http::UploadedFile:0x007f5a70496fc0 @tempfile=#<Tempfile:/tmp/RackMultipart20170123-26643-1ofuiic.jpg>, @original_filename="haker.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"user[avatar]\"; filename=\"haker.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Update"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 11 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 11 LIMIT 1[0m
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 143ms (Views: 13.9ms | ActiveRecord: 0.4ms)
+
+
+Started PUT "/users" for 127.0.0.1 at 2017-01-23 22:38:24 +0300
+Processing by Devise::RegistrationsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bzzOxseukIq9B6yt/Ql6lxsCWLktJW70l6lq82ieV14nXlBIR6DTdnIo2MZh9zhYHc7A1LnSFtn3UPmqRyH7YQ==", "user"=>{"username"=>"Kirill", "email"=>"leoniknik@mail.ru", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "current_password"=>"[FILTERED]"}, "commit"=>"Update"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 11 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 11 LIMIT 1[0m
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 145ms (Views: 13.9ms | ActiveRecord: 0.6ms)
+
+
+Started PUT "/users" for 127.0.0.1 at 2017-01-23 22:38:40 +0300
+Processing by Devise::RegistrationsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iEl82zgBHOlxM49mBgmUt8+dGjlXv/6W3QAFu4Ywp87AK+JVuA9fFb4c+w2a99Z4yVGCVMNIhru9+ZbiqY8L8Q==", "user"=>{"username"=>"Kirill", "email"=>"leoniknik@mail.ru", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "current_password"=>"[FILTERED]", "avatar"=>#<ActionDispatch::Http::UploadedFile:0x007f5a7e5bc748 @tempfile=#<Tempfile:/tmp/RackMultipart20170123-26643-nl81m4.jpg>, @original_filename="haker.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"user[avatar]\"; filename=\"haker.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Update"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 11 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 11 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE `users` SET `avatar` = 'haker.jpg', `updated_at` = '2017-01-23 19:38:40' WHERE `users`.`id` = 11[0m
+  [1m[35m (30.5ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 163ms (ActiveRecord: 31.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-01-23 22:38:40 +0300
+Processing by TimeController#show as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 11 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering time/show.html.erb within layouts/application
+  Rendered time/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 14ms (Views: 12.1ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2017-01-23 22:39:14 +0300
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ZoRjB5VpOnTAkBvxCizfJdqqfHN/INh6Z142hu0Evssu5v2JFWd5iA+/b5qW0p3q3GbkHuvXoFcHp6XfwrsS9A=="}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 11 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 3ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-01-23 22:39:14 +0300
+Processing by TimeController#show as HTML
+Completed 401 Unauthorized in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-01-23 22:39:14 +0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 13ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2017-01-23 22:39:22 +0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Dq2N69cL4fJPHxiloDibiz24yrbic9Pef/14OQSiEZe0pGp92XpRJgUFUx9UVD90CtrPqC6J4Kda2Eb8y3e1Ig==", "user"=>{"email"=>"leoniknik1@mail.ru", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'leoniknik1@mail.ru' ORDER BY `users`.`id` ASC LIMIT 1[0m
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.2ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Dq2N69cL4fJPHxiloDibiz24yrbic9Pef/14OQSiEZe0pGp92XpRJgUFUx9UVD90CtrPqC6J4Kda2Eb8y3e1Ig==", "user"=>{"email"=>"leoniknik1@mail.ru", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 141ms (Views: 12.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2017-01-23 22:39:22 +0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nJACryqJ7T3Hn5DgdVeb/wlOeghIuJlrPGDHewRqhvMmmeU5JPhd6Y2F21qBOz8APix/FoRCqhIZRfm+y78iRg==", "user"=>{"email"=>"leoniknik1@mail.ru", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nJACryqJ7T3Hn5DgdVeb/wlOeghIuJlrPGDHewRqhvMmmeU5JPhd6Y2F21qBOz8APix/FoRCqhIZRfm+y78iRg==", "user"=>{"email"=>"leoniknik1@mail.ru", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 14ms (Views: 13.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2017-01-23 22:39:23 +0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SRuR0oZsNRnC8aChpa+A7UAO7e+3WakD0osYzJcu19bzEnZEiB2FzYjr6xtRwyQSd2zo8Xujmnr3riYJWPtzYw==", "user"=>{"email"=>"leoniknik1@mail.ru", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SRuR0oZsNRnC8aChpa+A7UAO7e+3WakD0osYzJcu19bzEnZEiB2FzYjr6xtRwyQSd2zo8Xujmnr3riYJWPtzYw==", "user"=>{"email"=>"leoniknik1@mail.ru", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2017-01-23 22:39:24 +0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AUYVjr4IcGBjOMrKPtyb/2tUGIF8cst1VF+ziPffv9m7T/IYsHnAtCkigXDKsD8AXDYdn7CI+Axxeo1NOAobbA==", "user"=>{"email"=>"leoniknik1@mail.ru", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AUYVjr4IcGBjOMrKPtyb/2tUGIF8cst1VF+ziPffv9m7T/IYsHnAtCkigXDKsD8AXDYdn7CI+Axxeo1NOAobbA==", "user"=>{"email"=>"leoniknik1@mail.ru", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 18ms (Views: 17.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2017-01-23 22:39:25 +0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dqNpmNjfb2WMb68n6jSRHKGEKqFTRQ63RpcjngoG3t7Mqo4O1q7fscZ15J0eWDXjluYvv5+/Pc5jsh1bxdN6aw==", "user"=>{"email"=>"leoniknik1@mail.ru", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dqNpmNjfb2WMb68n6jSRHKGEKqFTRQ63RpcjngoG3t7Mqo4O1q7fscZ15J0eWDXjluYvv5+/Pc5jsh1bxdN6aw==", "user"=>{"email"=>"leoniknik1@mail.ru", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 14ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2017-01-23 22:39:26 +0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ld8pCMKlhaU+HEAiaRTSsUPwGyRH3Wam0oFYF/fPKHyX1s6ezNQ1cXQGC5ideHZOdJIeOosnVd/3pGbSOBqMyQ==", "user"=>{"email"=>"leoniknik1@mail.ru", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ld8pCMKlhaU+HEAiaRTSsUPwGyRH3Wam0oFYF/fPKHyX1s6ezNQ1cXQGC5ideHZOdJIeOosnVd/3pGbSOBqMyQ==", "user"=>{"email"=>"leoniknik1@mail.ru", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 20ms (Views: 19.3ms | ActiveRecord: 0.0ms)
+
+
