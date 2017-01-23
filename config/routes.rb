@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :ideas
   devise_for :users
   get 'time/show'
   root 'time#show'
